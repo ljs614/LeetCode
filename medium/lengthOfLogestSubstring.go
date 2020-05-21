@@ -1,14 +1,9 @@
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("d d"[1])
-	lengthOfLongestSubstring("ddss")
-}
+package medium
 
 //베낌
-func lengthOfLongestSubstring(s string) int {
+
+//LengthOfLongestSubstring ...
+func LengthOfLongestSubstring(s string) int {
 	index := [128]int{}
 	start, ans := 0, 0
 	len := len(s)
