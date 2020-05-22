@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/ljs614/leetcode/medium"
+	may2020 "github.com/ljs614/leetcode/2020/may/week4"
 )
 
 func main() {
-	s := "abcdbbfcba"
-	fmt.Println(medium.LongestPalindrome(s))
+	fmt.Println(may2020.FrequencySort("strt"))
 }
